@@ -1,0 +1,25 @@
+# This file contains a shpc_registry definition to allow the rust_utils to be
+# deployed as a module
+#
+# Dr. Paul Gierz
+# AWI Scientific Computing
+# December, 2021
+docker: pgierz/rust_utils
+latest: 
+  version: sha256:98e8ad8ee681225f29d24cb8ba7ed4559b59d30d990ec2b267e7cc24ab9ef3d6
+tags:
+  1.0.0: sha256:98e8ad8ee681225f29d24cb8ba7ed4559b59d30d990ec2b267e7cc24ab9ef3d6
+maintainer: "@pgierz"
+url: https://hub.docker.com/_/pgierz/rust_utils  # FIXME
+description: A collection of various shell utilities in Rust.
+aliases:
+  bat: /usr/local/cargo/bin/bat
+  btm: /usr/local/cargo/bin/btm
+  delta: /usr/local/cargo/bin/delta
+  dust: /usr/local/cargo/bin/dust
+  exa: /usr/local/cargo/bin/exa
+  fd: /usr/local/cargo/bin/fd
+  hyperfine: /usr/local/cargo/bin/hyperfine
+  rg: /usr/local/cargo/bin/rg
+  sd: /usr/local/cargo/bin/sd
+  starship: /usr/local/cargo/bin/starship
