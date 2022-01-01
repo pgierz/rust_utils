@@ -6,11 +6,11 @@
 # December, 2021
 docker: pgierz/rust_utils
 latest: 
-  version: sha256:98e8ad8ee681225f29d24cb8ba7ed4559b59d30d990ec2b267e7cc24ab9ef3d6
+  version: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
 tags:
-  1.0.0: sha256:98e8ad8ee681225f29d24cb8ba7ed4559b59d30d990ec2b267e7cc24ab9ef3d6
+   v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
 maintainer: "@pgierz"
-url: https://hub.docker.com/_/pgierz/rust_utils  # FIXME
+url: https://ghcr.io/pgierz/rust_utils
 description: A collection of various shell utilities in Rust.
 aliases:
   bat: /usr/local/cargo/bin/bat
