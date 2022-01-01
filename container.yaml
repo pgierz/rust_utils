@@ -4,14 +4,14 @@
 # Dr. Paul Gierz
 # AWI Scientific Computing
 # December, 2021
-docker: pgierz/rust_utils
+docker: ghcr.io/pgierz/rust_utils
+url: https://github.com/pgierz/rust_utils/pkgs/container/rust_utils
+maintainer: "@pgierz"
+description: A collection of various shell utilities in Rust.
 latest: 
-  version: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
+  v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
 tags:
    v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
-maintainer: "@pgierz"
-url: https://ghcr.io/pgierz/rust_utils
-description: A collection of various shell utilities in Rust.
 aliases:
   bat: /usr/local/cargo/bin/bat
   btm: /usr/local/cargo/bin/btm
